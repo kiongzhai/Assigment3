@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Assigment2</string>
+    <string name="recommendation">Recommendation</string>
+    <string name="compare">Compare</string>
+    <string name="pick">Picker</string>
+    <string name="title_home">Recommendation</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title1">Hardware Compare</string>
+    <string name="ranking">Ranking</string>
+    <string name="price">Price</string>
+    <string name="fps">eGame FPS</string>
+    <string name="bench">Average Bench</string>
+    <string name="overall">Overall</string>
+    <string name="parallax">Parallax</string>
+    <string name="logout">LogOut</string>
+
+    <string name="title2">Recommendation</string>
+    <string name="budget">What is your budget?: </string>
+    <string name="os">What operating system you  prefer? </string>
+    <string name="usage">What is the usage for? </string>
+    <string name="choose">What do you prefer? </string>
+    <string name="system">Best system for you is :  </string>
+    <string-array name="arrayBudget">
+        <item>LESS THAN RM 1000</item>
+        <item>RM 1000 - RM 1500</item>
+        <item>RM 1501 - RM 2000</item>
+        <item>RM 2001 - RM 2500</item>
+        <item>RM 2501 - RM 3000</item>
+        <item>RM 3001 - RM 3500</item>
+        <item>RM 3501 - RM 4000</item>
+        <item>RM 4500 - RM 5000</item>
+        <item>MORE THAN RM 5000</item>
+    </string-array>
+    <string name="os1">Windows</string>
+    <string name="os2">Mac Os</string>
+    <string name="os3">Linux</string>
+    <string name="usage1">Gaming</string>
+    <string name="usage2">Light Work (Eg: Documentation, powerpoint, excel)</string>
+    <string name="usage3">Heavy Work (Eg: AutoCad, Render videos, Photoshop)</string>
+    <string name="prefer1">Laptop</string>
+    <string name="prefer2">PC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
