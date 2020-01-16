@@ -15,20 +15,35 @@ import android.content.Intent
 import androidx.core.app.ComponentActivity.ExtraData
 import androidx.core.content.ContextCompat.getSystemService
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import com.google.firebase.firestore.FirebaseFirestore
+import androidx.core.content.ContextCompat.getSystemService
+import android.icu.lang.UCharacter.GraphemeClusterBreak.T
+import androidx.fragment.app.Fragment
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.FirebaseError
+import com.google.firebase.database.*
+import com.google.firebase.FirebaseApp
+import kotlinx.android.synthetic.main.activity_main.*
+import com.facebook.login.LoginManager
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.*
+import kotlinx.android.synthetic.main.fragment_compare.*
+import com.google.firebase.database.*
+
 
 
 
 class SpinnerActivity : AppCompatActivity(){
+    private lateinit var database: DatabaseReference
     lateinit var option : Spinner
     lateinit var option2 : Spinner
     lateinit var result : TextView
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_compare)
-
 
 
         option = findViewById(R.id.spinner) as Spinner
@@ -53,17 +68,30 @@ class SpinnerActivity : AppCompatActivity(){
             ) {
                 if (parent?.getId() == R.id.spinner) {
                     when(position){
-                        0 -> textView21.setText("NVIDIA")
+                        0 -> readSingleData()
                         1 -> textView21.setText("AMD")
                         2 -> textView21.setText("OTHERS")
                     }
+                }
+            }
+        }
 
+    }
+
+    fun readSingleData(){
+        FirebaseDatabase.getInstance().reference
+            .child("user")
+            .child("1")
+            .addListenerForSingleValueEvent(object : ValueEventListener{
+                override fun onCancelled(p0: DatabaseError) {
 
                 }
-                else {}
 
-            }
+                override fun onDataChange(p0: DataSnapshot) {
+                    var map = p0.value as Map<String,Any>
+                    textView21.text = map["age"].toString()
+                }
 
-        }
+            })
     }
 }
