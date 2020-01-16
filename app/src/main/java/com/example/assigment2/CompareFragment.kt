@@ -99,12 +99,12 @@ class CompareFragment : Fragment() {
                 }
                 override fun onDataChange(p0: DataSnapshot) {
                     var map = p0.value as Map<String,Any>
-                    textView20.text = map["brand"].toString()
-                    textView32.text = map["rank"].toString()
-                    textView40.text = map["price"].toString()
-                    textView59.text = map["cs"].toString()
-                    textView55.text = map["parallax"].toString()
-                    textView65.text = map["overall"].toString()
+                    textView20?.text = map["brand"].toString()
+                    textView32?.text = map["rank"].toString()
+                    textView40?.text = map["price"].toString()
+                    textView59?.text = map["cs"].toString()
+                    textView55?.text = map["parallax"].toString()
+                    textView65?.text = map["overall"].toString()
 
                 }
             })
@@ -120,12 +120,12 @@ class CompareFragment : Fragment() {
                 }
                 override fun onDataChange(p0: DataSnapshot) {
                     var map = p0.value as Map<String,Any>
-                    textView20.text = map["brand"].toString()
-                    textView32.text = map["rank"].toString()
-                    textView40.text = map["price"].toString()
-                    textView59.text = map["cs"].toString()
-                    textView55.text = map["parallax"].toString()
-                    textView65.text = map["overall"].toString()
+                    textView20?.text = map["brand"].toString()
+                    textView32?.text = map["rank"].toString()
+                    textView40?.text = map["price"].toString()
+                    textView59?.text = map["cs"].toString()
+                    textView55?.text = map["parallax"].toString()
+                    textView65?.text = map["overall"].toString()
 
                 }
             })
@@ -141,12 +141,12 @@ class CompareFragment : Fragment() {
                 }
                 override fun onDataChange(p0: DataSnapshot) {
                     var map = p0.value as Map<String,Any>
-                    textView21.text = map["brand"].toString()
-                    textView33.text = map["rank"].toString()
-                    textView39.text = map["price"].toString()
-                    textView58.text = map["cs"].toString()
-                    textView54.text = map["parallax"].toString()
-                    textView64.text = map["overall"].toString()
+                    textView21?.text = map["brand"].toString()
+                    textView33?.text = map["rank"].toString()
+                    textView39?.text = map["price"].toString()
+                    textView58?.text = map["cs"].toString()
+                    textView54?.text = map["parallax"].toString()
+                    textView64?.text = map["overall"].toString()
 
                 }
             })
@@ -162,12 +162,12 @@ class CompareFragment : Fragment() {
                 }
                 override fun onDataChange(p0: DataSnapshot) {
                     var map = p0.value as Map<String,Any>
-                    textView21.text = map["brand"].toString()
-                    textView33.text = map["rank"].toString()
-                    textView39.text = map["price"].toString()
-                    textView58.text = map["cs"].toString()
-                    textView54.text = map["parallax"].toString()
-                    textView64.text = map["overall"].toString()
+                    textView21?.text = map["brand"].toString()
+                    textView33?.text = map["rank"].toString()
+                    textView39?.text = map["price"].toString()
+                    textView58?.text = map["cs"].toString()
+                    textView54?.text = map["parallax"].toString()
+                    textView64?.text = map["overall"].toString()
                 }
             })
     }

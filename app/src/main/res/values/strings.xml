@@ -38,6 +38,53 @@
     <string name="prefer1">Laptop</string>
     <string name="prefer2">PC</string>
 
+
+    <string-array name="CPU">
+        <item> </item>
+        <item>AMD Ryzen 5 3600</item>
+        <item>Intel Core i7-9700K</item>
+        <item>Intel Core i7-4790K</item>
+    </string-array>
+
+    <string-array name="RAM">
+        <item> </item>
+        <item>Kingston 4GB ddr2</item>
+        <item>Kingston 4GB ddr4</item>
+        <item>Kingston 4GB ddr3 </item>
+    </string-array>
+
+    <string-array name="Motherboard">
+        <item> </item>
+        <item>MSI B450 TOMAHAWK</item>
+        <item>MSI Z390-A PRO</item>
+        <item>ASUS H81M-K 1150</item>
+    </string-array>
+
+    <string-array name="HDD">
+        <item> </item>
+        <item>Samsung EVO 970 1TB m.2</item>
+        <item>Transcend 1TB </item>
+    </string-array>
+
+    <string-array name="Power">
+        <item> </item>
+        <item>Cooler Master MW500W</item>
+        <item>EVGA 600W</item>
+        <item>EVGA 400W</item>
+    </string-array>
+
+    <string-array name="GPU">
+        <item> </item>
+        <item>RTX 2060 6GB</item>
+        <item>RX 5700 8GB</item>
+    </string-array>
+
+    <string-array name="CpuCooler">
+        <item> </item>
+        <item>Corsair RGB</item>
+    </string-array>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
