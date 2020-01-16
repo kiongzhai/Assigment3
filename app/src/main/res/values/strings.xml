@@ -24,13 +24,10 @@
     <string-array name="arrayBudget">
         <item>LESS THAN RM 1000</item>
         <item>RM 1000 - RM 1500</item>
-        <item>RM 1501 - RM 2000</item>
-        <item>RM 2001 - RM 2500</item>
-        <item>RM 2501 - RM 3000</item>
-        <item>RM 3001 - RM 3500</item>
-        <item>RM 3501 - RM 4000</item>
-        <item>RM 4500 - RM 5000</item>
-        <item>MORE THAN RM 5000</item>
+    </string-array>
+    <string-array name="Hardware">
+        <item>RTX 2060 6GB</item>
+        <item>RX 5700 8GB</item>
     </string-array>
     <string name="os1">Windows</string>
     <string name="os2">Mac Os</string>

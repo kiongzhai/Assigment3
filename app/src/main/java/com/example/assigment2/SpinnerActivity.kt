@@ -91,7 +91,6 @@ class SpinnerActivity : AppCompatActivity(){
                     var map = p0.value as Map<String,Any>
                     textView21.text = map["age"].toString()
                 }
-
             })
     }
 }

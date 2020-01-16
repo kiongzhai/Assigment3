@@ -45,9 +45,10 @@
 
                     <TextView
                         android:id="@+id/textView21"
-                        android:layout_width="wrap_content"
+                        android:layout_width="169dp"
                         android:layout_height="wrap_content"
                         android:layout_column="0"
+                        android:layout_marginLeft="60dp"
                         android:gravity="center_horizontal"
                         android:text="TextView"
                         android:textSize="18sp" />
@@ -71,7 +72,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_gravity="end"
-                        android:entries="@array/arrayBudget"
+                        android:entries="@array/Hardware"
                         android:gravity="center" />
 
                     <Spinner
@@ -79,6 +80,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_gravity="end"
+                        android:entries="@array/Hardware"
                         android:gravity="center" />
                 </TableRow>
 
@@ -89,8 +91,10 @@
 
                     <ImageView
                         android:id="@+id/imageView2"
-                        android:layout_width="50dp"
+                        android:layout_width="191dp"
                         android:layout_height="50dp"
+                        android:layout_marginLeft="60dp"
+                        android:cropToPadding="false"
                         app:srcCompat="@android:drawable/arrow_down_float" />
 
                     <ImageView
@@ -131,9 +135,9 @@
 
                     <ImageView
                         android:id="@+id/imageView5"
-                        android:layout_width="50dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="0"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="5"
                         android:scaleType="fitStart"
                         app:srcCompat="@drawable/ranking" />
 
@@ -141,8 +145,8 @@
                         android:id="@+id/textView33"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_weight="0"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
 
@@ -150,8 +154,8 @@
                         android:id="@+id/textView32"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
-                        android:layout_weight="0"
+                        android:layout_gravity="center|center_vertical"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
                 </TableRow>
@@ -181,9 +185,10 @@
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="44dp"
-                        android:layout_height="75dp"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
                         android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
                         android:scaleType="fitStart"
                         app:srcCompat="@drawable/price" />
 
@@ -191,7 +196,8 @@
                         android:id="@+id/textView39"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center|center_vertical"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
 
@@ -199,7 +205,8 @@
                         android:id="@+id/textView40"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center|center_vertical"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
                 </TableRow>
@@ -245,9 +252,10 @@
 
                     <ImageView
                         android:id="@+id/imageView7"
-                        android:layout_width="50dp"
-                        android:layout_height="75dp"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
                         android:layout_marginLeft="8dp"
+                        android:layout_weight="5"
                         android:scaleType="fitStart"
                         app:srcCompat="@drawable/dota" />
 
@@ -255,7 +263,8 @@
                         android:id="@+id/textView50"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
 
@@ -263,7 +272,8 @@
                         android:id="@+id/textView51"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
                 </TableRow>
@@ -275,8 +285,9 @@
 
                     <ImageView
                         android:id="@+id/imageView8"
-                        android:layout_width="50dp"
-                        android:layout_height="100dp"
+                        android:layout_width="0dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="5"
                         android:scaleType="fitStart"
                         app:srcCompat="@drawable/csgo" />
 
@@ -284,7 +295,8 @@
                         android:id="@+id/textView58"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
 
@@ -292,7 +304,8 @@
                         android:id="@+id/textView59"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
                 </TableRow>
@@ -337,8 +350,9 @@
 
                     <TextView
                         android:id="@+id/textView53"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_weight="5"
                         android:text="@string/parallax"
                         android:textSize="18sp" />
 
@@ -346,7 +360,8 @@
                         android:id="@+id/textView54"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
 
@@ -354,7 +369,8 @@
                         android:id="@+id/textView55"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
                 </TableRow>
@@ -384,14 +400,17 @@
 
                     <TextView
                         android:id="@+id/textView63"
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_weight="5"
                         android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/textView64"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
 
@@ -399,6 +418,8 @@
                         android:id="@+id/textView65"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="2"
                         android:text="TextView"
                         android:textSize="18sp" />
                 </TableRow>
