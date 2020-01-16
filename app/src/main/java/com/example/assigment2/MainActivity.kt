@@ -29,11 +29,13 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.picker ->{
                 println("picker pressed")
+                replaceFragment(PickerFragment())
                 return@OnNavigationItemSelectedListener true
             }
         }
         false
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
